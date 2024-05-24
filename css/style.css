@@ -43,6 +43,7 @@ body{
 .inferior{
     text-align: center;
     user-select: none;
+    -wekbit-user-select: none;
     font-family: "Noto Emoji", sans-serif;
     font-size: 40px;
     padding: 0%;
@@ -53,6 +54,7 @@ body{
 .superior{
     text-align: center;
     user-select: none;
+    -wekbit-user-select: none;
     font-family: "Noto Emoji", sans-serif;
     font-size: 40px;
     padding: 0%;
