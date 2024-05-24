@@ -1,0 +1,132 @@
+h1{
+    color: white;
+    text-align: center;
+}
+body{
+    background-color: black;
+}
+.GUI{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.tablero{
+    border: solid 15px chocolate;
+    border-style: outset;
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+    margin-left: 15%;
+}
+.columna{
+    width: 25%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+}
+.blanco{
+    background-color: darkolivegreen;
+    border: solid 5px darkolivegreen;
+    width: 50px;
+    height: 50px;
+    transition: background-color 0.5s, border 0.5s;
+}
+.negro{
+    background-color:  rgb(75, 75, 75);
+    border: solid 5px rgb(75, 75, 75);
+    width: 50px;
+    height: 50px;
+    transition: background-color 0.5s, border 0.5s;
+}
+.inferior{
+    text-align: center;
+    font-family: "Noto Emoji", sans-serif;
+    font-size: 40px;
+    padding: 0%;
+    margin: 0%;
+    color: black;
+    transition: font-size 0.5s;
+}
+.superior{
+    text-align: center;
+    font-family: "Noto Emoji", sans-serif;
+    font-size: 40px;
+    padding: 0%;
+    margin: 0%;
+    color: white;
+    transition: font-size 0.5s;
+}
+.pieza{
+    padding: 0%;
+    margin: 0%;
+}
+.inferior:hover{
+    transition: font-size 0.5s;
+    font-size: 42px;
+}
+.superior:hover{
+    transition: font-size 0.5s;
+    font-size: 42px;
+}
+.botones{
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+}
+.boton{
+    border: solid 5px white;
+    border-style: outset;
+    border-radius: 10px;
+    text-align: center;
+    background: linear-gradient(black, rgb(44, 43, 43));
+    margin-left: 2%;
+    margin-top: 10%;
+    padding: 2%;
+    width: 150px;
+}
+.boton:active{
+    background: linear-gradient(red, darkred);
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: xx-large;
+}
+a:hover{
+    color: rgb(214, 212, 212);
+}
+.blanco:hover{
+    background-color: rgb(124, 159, 63);
+    border: solid 5px rgb(104, 139, 43);
+    width: 50px;
+    height: 50px;
+    transition: background-color 0.25s, border 0.25s;
+}
+.negro:hover{
+    background-color:  rgb(120, 120, 120);
+    border: solid 5px rgb(100, 100, 100);
+    width: 50px;
+    height: 50px;
+    transition: background-color 0.25s, border 0.25s;
+}
+.blanco:active{
+    background-color: red;
+    border: solid 5px red;
+    width: 50px;
+    height: 50px;
+    transition: background-color 0.25s, border 0.25s;
+}
+.negro:active{
+    background-color:  red;
+    border: solid 5px red;
+    width: 50px;
+    height: 50px;
+    transition: background-color 0.25s, border 0.25s;
+}
+p{
+    color: white;
+    text-align: center;
+}
+/* COPYRIGHT LOLOLOL
