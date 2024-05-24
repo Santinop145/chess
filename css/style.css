@@ -43,9 +43,12 @@ body{
 .inferior{
     text-align: center;
     user-select: none;
+    -webkit-touch-callout: none;
     -wekbit-user-select: none;
     -moz-user-select: none;
+    -khtml-user-select: none;
     -ms-user-select: none;
+    cursor: default;
     font-family: "Noto Emoji", sans-serif;
     font-size: 40px;
     padding: 0%;
@@ -56,9 +59,12 @@ body{
 .superior{
     text-align: center;
     user-select: none;
+    -webkit-touch-callout: none;
     -wekbit-user-select: none;
     -moz-user-select: none;
+    -khtml-user-select: none;
     -ms-user-select: none;
+    cursor: default;
     font-family: "Noto Emoji", sans-serif;
     font-size: 40px;
     padding: 0%;
